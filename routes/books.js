@@ -1,3 +1,5 @@
+const express = require('express');
+const router = express.Router();
 
 // Load Book model
 const Book = require('../../models/Book');
